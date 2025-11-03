@@ -1,0 +1,5 @@
+{
+  "name": "fUXit Analyzer",
+  "description": "Upload a screenshot of your web or mobile app to receive a comprehensive UI/UX analysis powered by Gemini. Get detailed feedback on best practices and see a visually improved version of your design.",
+  "requestFramePermissions": []
+}
