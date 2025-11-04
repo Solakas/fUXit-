@@ -1,3 +1,4 @@
+
 import React, { useState, useCallback, useEffect } from 'react';
 import ImageUploader from './components/ImageUploader';
 import Spinner from './components/Spinner';
@@ -339,6 +340,19 @@ function App() {
             </main>
           </div>
         )}
+         <footer className="text-center py-8 mt-10 border-t border-gray-800">
+          <p className="text-sm text-gray-500">
+            Vibe coded with love by{' '}
+            <a
+              href="https://solakidis.notion.site/Solakidis-Panagiotis-b0cb7b286fae481191b0d0a3814afc9b"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-indigo-400 hover:text-indigo-300 transition-colors"
+            >
+              Solakidis Panagiotis
+            </a>
+          </p>
+        </footer>
       </div>
     </div>
   );
